@@ -1,0 +1,139 @@
+:root {
+    --primary-blue: #004085;   /* Deep Professional Blue */
+    --accent-red: #e63946;     /* Vibrant Red for Buttons/Alerts */
+    --dark-black: #121212;     /* Rich Black for Nav/Footer */
+    --light-gray: #f4f4f4;     /* Soft Background */
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    background-color: var(--light-gray);
+    color: var(--dark-black);
+}
+
+/* Header with Blue Background */
+header {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 30px 15px;
+    border-bottom: 5px solid var(--accent-red); /* Red accent line */
+}
+
+/* Navigation with Black Background */
+nav {
+    background-color: var(--dark-black);
+    padding: 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--accent-red); /* Red hover effect */
+}
+
+/* Hero Section */
+.hero {
+    background: var(--white);
+    padding: 50px 20px;
+}
+
+.featured-box {
+    border: 2px solid var(--primary-blue);
+    padding: 20px;
+    border-radius: 8px;
+    background: #f0f4f8;
+}
+
+/* Red Buttons for Call-to-Action */
+.quote-btn, .send-btn {
+    background: var(--accent-red);
+    color: var(--white);
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+.quote-btn:hover, .send-btn:hover {
+    background: #c1121f; /* Darker red on hover */
+}
+
+/* Service Cards */
+.service-card {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 12px;
+    border-top: 4px solid var(--primary-blue); /* Blue top border */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.service-card .icon {
+    color: var(--accent-red); /* Red Icons */
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: var(--primary-blue);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Contact Sidebar */
+.contact-card {
+    background: var(--dark-black);
+    color: var(--white);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.contact-card h3 {
+    color: var(--accent-red); /* Red Heading in Contact */
+}
+
+input, textarea {
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: white;
+    padding: 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* Footer with Black Background */
+footer {
+    background-color: var(--dark-black);
+    color: var(--white);
+    text-align: center;
+    padding: 30px;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.social-icons i:hover {
+    color: var(--accent-red);
+}

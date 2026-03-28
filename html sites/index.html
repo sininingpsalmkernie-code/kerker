@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsalmTech ICT Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <h1>PsalmTech ICT Services</h1>
+            <p>Empowering Your Digital Future</p>
+        </div>
+        <nav>
+            <a href="#home">Home</a> | <a href="#services">Services</a> | <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Tech Workspace">
+                </div>
+                <div class="hero-text">
+                    <h2>Empower Your Journey with PsalmTech.</h2>
+                    <p>We are your dedicated partner in crafted, affordable, and powerful ICT solutions for growth, catering to students, startups, and businesses alike.</p>
+                    <div class="featured-box">
+                        <p>Featured Service</p>
+                        <h3>Website Development - ₱3,000</h3>
+                        <button class="quote-btn" onclick="requestQuote()">GET STARTED / REQUEST QUOTE <i class="fas fa-external-link-alt"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <section id="services" class="services-area">
+                <h2 class="section-title">Our Services</h2>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <i class="fas fa-code icon"></i>
+                        <h3>Web Development</h3>
+                        <p>Build responsive and modern websites.</p>
+                        <p class="price">₱3,000 - ₱10,000+</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-tools icon"></i>
+                        <h3>Tech Support</h3>
+                        <p>Computer repair, virus removal, and troubleshooting.</p>
+                        <p class="price">₱500 - ₱2,000+</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-user-graduate icon"></i>
+                        <h3>Programming Tutorials</h3>
+                        <p>Learn coding step-by-step for beginners. Learn coding estimation.</p>
+                        <p class="price">From ₱300 per session</p>
+                    </div>
+                </div>
+            </section>
+
+            <aside id="contact" class="contact-sidebar">
+                <div class="contact-card">
+                    <h3>Contact Us</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <p class="form-note">Please use English for clear communication.</p>
+                        <button type="submit" class="send-btn">SEND MESSAGE <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> psalmtech@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 09123456789</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Cebu City, Philippines <span class="map-link">Cebu, PH</span></p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 PsalmTech ICT Services</p>
+        <div class="social-icons">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* Contact Page Specific Styles */
+.contact-header {
+    background: linear-gradient(rgba(0, 64, 133, 0.9), rgba(0, 64, 133, 0.9)), 
+                url('https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?auto=format&fit=crop&w=1000&q=80');
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: -40px auto 50px; /* Pulls the box up into the header slightly */
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.contact-info-panel {
+    background: #121212; /* Black */
+    color: white;
+    padding: 40px;
+    flex: 1;
+}
+
+.contact-info-panel h2 {
+    color: #e63946; /* Red */
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.info-item i {
+    color: #e63946;
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.contact-form-panel {
+    padding: 40px;
+    flex: 1.5;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #004085; /* Blue */
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.red-btn {
+    background: #e63946;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.red-btn:hover {
+    background: #004085; /* Switch to Blue on hover */
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #e63946;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        margin: 20px;
+    }
+}
